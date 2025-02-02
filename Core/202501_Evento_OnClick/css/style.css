@@ -1,0 +1,118 @@
+
+/* Estilos gerais */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do header */
+
+header {
+    width: 1160px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(206, 206, 206);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Estilo do botão sessão - iniciar/fechar */
+
+#inicio_sessao {
+    background-color: rgb(69, 142, 247);
+    width: 130px;
+    color: white;
+    padding: 5px;
+    font-size: medium;
+}
+
+
+/* O conteúdo principal está dentro de um container com duas colunas, sendo col1-->flex=2; col2-->flex=1*/
+
+.container {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-top: 20px;
+}
+
+
+.col1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: white;
+}
+
+
+.col2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+}
+
+
+.animal {
+    display: block;
+    width: 770px;
+    height: 235px;
+    background-color: white;
+    border: black solid 1px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.ITbox {
+    display: block;
+    width: 370px;
+    background-color: white;
+    border: black solid 1px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.tipo_palavra {
+    font-style: italic;
+}
+
+/* Configurei o elemento botao-animal como <button> para poder manipular o tamanho do botão e evitar que mude com incremento de likes */
+
+.botao_animal {
+    width: 70px;
+    height: 28px;
+    text-align: center;
+    background-color: rgb(255, 255, 209);
+    border: black solid 1px;
+    font-size: small;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 8px grey;
+}
+
+#definicao {
+    display: block;
+    width: 150px;
+    background-color: rgb(55, 126, 34);
+    color: white;
+    border: black solid 1px;
+    box-shadow: 3px 3px 8px grey;
+    padding: 8px 30px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}

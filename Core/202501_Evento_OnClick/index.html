@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Petlopedia by RA</title>
+</head>
+
+<header>
+    <h1>Petlopedia</h1>
+    <input type="text" id="conteudo_busca" name="conteudo_busca" size="100" placeholder="buscar mascotes">
+    <input id="inicio_sessao" type="submit" value="Iniciar sessão">
+</header>
+<div class="container">
+    <div class="col1">
+        <div class="animal">
+            <h1>Gato Tigrado</h1>
+            <p class="tipo_palavra">substantivo</p>
+            <p>Plural: Gatos Tigrados</p>
+            <p>Um gato com pelagem distintiva que apresenta listras, pontos ou padrões em redemoinho, geralmente com uma
+                marca em forma de "M" na testa.</p>
+            <button id="like_gato" class="botao_animal"><span id="likes_gato">0</span> likes</button>
+        </div>
+        <div class="animal">
+            <h1>Golden Retriever</h1>
+            <p class="tipo_palavra">substantivo</p>
+            <p>Plural: Golden Retrievers</p>
+            <p>Uma raça de cães amigável, inteligente e devotada, conhecida por sua pelagem dourada e sua habilidade de
+                recuperar objetos sem danificá-los.</p>
+            <button id="like_golden" class="botao_animal"><span id="likes_golden">0</span> likes</button>
+        </div>
+    </div>
+    <div class="col2">
+        <div class="ITbox">
+            <p>A Petlopedia está definina por VOCÊ</p>
+            <span id="definicao">Incluir definição</span>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+
+</html>
