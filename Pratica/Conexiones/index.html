@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<!-- by Roberto Alvarez -->
+
+<!-- Trial GitHub -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Usuario - Functional clicks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="ambiente">
+        <div class="container">
+            <nav class="navbar">
+                <a class="logo" href="#">Perfil</a>
+                <ul class="menu">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Meu perfil</a></li>
+                    <li><a href="#">Encontrar conexões</a></li>
+                </ul>
+                <input type="submit" class="botao_bar" value="Fechar Sessão" />
+            </nav>
+            <div class="coluna1">
+                <div class="card_container">
+                    <div class="topbar">
+                    </div>
+                    <div id="picture" class="foto foto_roberto">
+                    </div>
+                    <div class="perfil">
+                        <h1 id="roberto">Roberto Alvarez</h1>
+                        <p>São Paulo, Brasil</p>
+                        <p>Chief Curiosity Officer | Dot Connector</p>
+                        <p class="texto_perfil">Apaixonado pela tecnologia, novos modelos de negócios e as tendências
+                            que definem o futuro. Quando não está trabalhando, está dormindo, sonhando e explorando
+                            outras galáxias.
+                        </p>
+                        <input id="editar" type="submit" class="botao" value="⚙ editar perfil">
+                    </div>
+                </div>
+                <div class="card_endereco">
+                    <h2>Education</h2>
+                    <p>Coding Dojo - Bootcamp de Python</p>
+                    <p>Jan 2025 - Apr 2025</p>
+                    <p>Full stack developer - HTML/CSS, Java, Python, Pascal, Basic, Assembly</p>
+                </div>
+            </div>
+            <div class="coluna2">
+                <div class="solicitacoes">
+                    <h2 class="titulos_conexoes">Solicitações de conexão <span id="numero_solicitacoes">(2)<span></h2>
+                    <ul>
+                        <li id="trump">
+                            <img src="img/trump.jpg" alt="Trump">
+                            <div class="texto_conexoes">Donald Trump</div>
+                            <div id="trumpyes" class="acao">✔</div>
+                            <div id="trumpno" class="acao">x</div>
+                        </li>
+                        <li id="boric">
+                            <img src="img/boric.jpg" alt="Boric">
+                            <div class="texto_conexoes">Gabriel Boric</div>
+                            <div id="boricyes" class="acao">✔</div>
+                            <div id="boricno" class="acao">x</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="conexoes">
+                    <h2 class="titulos_conexoes">Suas conexões: (<span id="numero_conexoes">500</span>)</h2>
+                    <ul>
+                        <li>
+                            <img src="img/lula.jpg" alt="Lula">
+                            <div class="texto_conexoes">Lula da Silva</div>
+                        </li>
+                        <li>
+                            <img src="img/Jack.jpg" alt="Jack">
+                            <div class="texto_conexoes">Jack Ma</div>
+                        </li>
+                        <li>
+                            <img src="img/Putin.jpg" alt="Putin">
+                            <div class="texto_conexoes">Vladmir Putin</div>
+                        </li>
+                        <li>
+                            <img src="img/bill.jpg" alt="Bill">
+                            <div class="texto_conexoes">Bill Gates</div>
+                        </li>
+                        <li>
+                            <img src="img/macron.jpg" alt="Macron">
+                            <div class="texto_conexoes">Emmanuel Macron</div>
+                        </li>
+                        <li>
+                            <img src="img/xi.jpg" alt="Xi">
+                            <div class="texto_conexoes">Xi Jinping</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
